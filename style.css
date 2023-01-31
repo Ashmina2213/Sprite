@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 2000px;
+}
+.header{
+    
+    background-color:#009b4e;
+    width: 100%;
+    height: 92px;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-top: 33px;
+}
+.sub-menu{
+    position: relative;
+    left: 383px;
+    top: 31px;
+}
+.sub-menu img{
+    width: 25px;
+}
+
+.menu a:hover{
+    color: black;
+    border-bottom: 4px solid black;
+}
+
+.body-part{
+    display: flex;
+    background-color:rgb(0 178 61);
+    width: 100%;
+    height: 501px;
+    }
+ .body-part1{
+    position: relative;
+    width: 237px;
+    height: 100px;
+    bottom: 445px;
+    left: 140px;
+    color: rgb(255, 238, 238);
+}
+.button{
+    position: relative;
+    width: 140px;
+    left: 6px;
+    bottom: 1px;
+    height: 31px;
+    border: 1px solid white;
+    color: #003900;
+    font-family: system-ui;
+}
+.heading{
+    position: relative;
+    width: 264px;
+    bottom: 584px;
+    left: 380px;
+}
+
+.Paragraph{
+    position: relative;
+    width: 763px;
+    bottom: 584px;
+    left: 383px;
+}
+.logo{
+    width: 124px;
+    height: 43px;
+}
+.image{
+    position: relative;
+    width: 50px;
+    left: 380px;
+    bottom: 548px;
+}
+.messag-icon{
+    position: relative;
+    left: 720px;
+    bottom: 0px;
+}
+.bottle{
+    position: relative;
+    height: 100px;
+    width: 50px;
+    left: 359px;
+    top: -565px;
+}
+.footter{
+    position: relative;
+    background-color:#009b4e;
+    width: 100%;
+    height: 476px;
+    bottom: 271px;
+}
+.last-logo{
+    position: relative;
+    top: 84px;
+    left: 211px;
+    width: 100px;
+}
+  .connect{
+    color: white;
+    position: relative;
+    left: 475px;
+    bottom: 16px;
+    font-size: 18px;
+    display: inline;
+    
+  }
+  .production{
+    height: 304px;
+    width: 260px;
+    position: relative;
+    bottom: 47px;
+    left: 834px;
+    line-height: 31px;
+  }
+  .last-menu{
+    display: flex;
+  }
+  .last-menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    margin-left: 478px;
+    margin-right: -475px;
+    margin-top: -90px;
+  }
+  .last-words{
+    display: flex;
+  }
+.last-words a{
+    text-decoration: none;
+    color: rgb(255, 247, 247);
+    font-weight: 1000;
+    margin-left: 335px;
+    margin-right: -325px;
+    margin-top: -41px;
+}
+.last-words a:hover{
+    color: black;
+}
